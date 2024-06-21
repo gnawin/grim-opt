@@ -1,0 +1,36 @@
+land_cover:
+  # The absence of a 'paths' key means we wish FULLY DEFAULT paths
+  # Otherwise the elements of the 'paths' section should be relative to the folder where this config file sits
+  out_shp:
+    x: 4721
+    y: 4412
+  r: 0
+  class_artificial_indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+optimization:
+  # The absence of a 'paths' key means we wish FULLY DEFAULT paths
+  # Otherwise the elements of the 'paths' section should be relative to the folder where this config file sits
+  num_rows_cost_params: 1000
+  et_params:
+    N: 32
+    FL: 50
+    G: ['onshore', 'solar', 'biomass', 'gas']
+    SC: ['battery', 'hydrogen']
+    RES: ['onshore', 'solar', 'biomass']
+    non_VRES: ['biomass', 'gas']
+  solver_params:
+    name: 'glpk'
+    crossover: null
+    method: null
+    threads: null  # other possibility: 8
+  other_params:
+    lol: 23000
+    R: 1
+    denominator_R: 8760
+    CT: 10000
+    r: 0.05
+    LT: 40
+    reserve_margin: 0.5
+    omega: 1.0
+    e_l: 0.25
+
