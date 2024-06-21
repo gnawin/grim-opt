@@ -1,3 +1,8 @@
+## What is this repository about?
+This repository contains source codes for the greenfield renewable investment model (grim), which is used for the following papers:
+- Ni Wang, Remco A. Verzijlbergh, Petra W. Heijnen, Paulien M. Herder, A spatially explicit planning approach for power systems with a high share of renewable energy sources, Applied Energy, Volume 260, 2020, 114233, https://doi.org/10.1016/j.apenergy.2019.114233.
+- Ni Wang, Remco A. Verzijlbergh, Petra W. Heijnen, Paulien M. Herder, Incorporating indirect costs into energy system optimization models: Application to the Dutch national program Regional Energy Strategies, Energy, Volume 276, 2023, 127558, https://doi.org/10.1016/j.energy.2023.127558.
+
 ## Installation steps
 
 * OPTIONAL, only if plotting is necessary:
